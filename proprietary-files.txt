@@ -221,6 +221,7 @@ vendor/lib64/libssd.so|4e1ca3d1f0dc7deaa0fd58e1dc6407d8cd020852
 
 # GPS - from crackling
 -lib64/libloc_api_v02.so|ca97a81ea91ca5c7d8dd8c9a9054121ce1446b8a
+-lib64/libloc_ds_api.so|c2ed259789fe01aeced4e06ad1693036852daf7c
 -lib/libloc_api_v02.so|74df1667c42701ef550ba73db6c5ae63542913ac
 vendor/lib64/hw/flp.default.so|03784211a3d7c144c0bc6f86b50d1cc5eb97f8c5
 vendor/lib64/libflp.so|33793c405cf39858854c8023dec4b4e0d9d79ff0
