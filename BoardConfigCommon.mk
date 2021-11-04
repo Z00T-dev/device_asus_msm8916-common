@@ -176,7 +176,8 @@ BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib64/lib-imscamera.so|libshims_camera.so \
     /system/vendor/lib64/libflp.so|libshims_flp.so \
-    /system/vendor/lib64/libizat_core.so|libshims_get_process_name.so
+    /system/vendor/lib64/libizat_core.so|libshims_get_process_name.so \
+    /system/vendor/lib64/lib-imsvt.so|libshims_ims.so
 
 # Tap-to-Wake
 TARGET_TAP_TO_WAKE_NODE := "/sys/bus/i2c/devices/i2c-5/5-0038/dclick_mode"

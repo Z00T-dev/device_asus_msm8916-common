@@ -271,7 +271,9 @@ PRODUCT_PACKAGES += \
 
 # Telephony-ext
 PRODUCT_PACKAGES += \
-    telephony-ext
+    telephony-ext \
+    ims-ext-common \
+    libshims_ims
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
